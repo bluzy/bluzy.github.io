@@ -9,6 +9,8 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.6.1"
   gem "jekyll-archives"
   gem "jekyll-sitemap"
+  gem "kramdown-parser-gfm", "~> 1.1.0"
+  gem 'jekyll-admin'
 end
 
 group :test do
